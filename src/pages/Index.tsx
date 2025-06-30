@@ -9,6 +9,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
 import { Link } from "react-router-dom";
+import DockDemo from "@/components/DockDemo";
 
 const Index = () => {
   const features = [
@@ -247,6 +248,9 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      {/* MacOS Dock */}
+      <DockDemo />
     </div>
   );
 };
